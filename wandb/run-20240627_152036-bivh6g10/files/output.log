@@ -1,0 +1,36 @@
+Freezing layer 'model.25.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/ubuntu/文档/GitHub/DL大作业/datasets/Vehicle/images/train/vehicle_0006145.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mScanning /home/ubuntu/文档/GitHub/DL大作业/datasets/Vehicle/labels/train.cache... 8865 images, 0 backgrounds, 0 corrupt: 100%|██████████| 8865/8865 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning /home/ubuntu/文档/GitHub/DL大作业/datasets/Vehicle/labels/val.cache... 985 images, 0 backgrounds, 0 corrupt: 100%|██████████| 985/985 [00:00<?, ?it/s]
+Plotting labels to runs/detect/train258/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001, momentum=0.9) with parameter groups 63 weight(decay=0.0), 143 weight(decay=0.0005), 79 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/detect/train258
+Starting training for 20 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

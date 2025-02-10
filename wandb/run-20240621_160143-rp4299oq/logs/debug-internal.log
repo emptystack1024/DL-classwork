@@ -1,0 +1,443 @@
+2024-06-21 16:01:43,951 INFO    StreamThr :869708 [internal.py:wandb_internal():85] W&B internal server running at pid: 869708, started at: 2024-06-21 16:01:43.950904
+2024-06-21 16:01:43,953 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:01:43,961 INFO    WriterThread:869708 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/run-rp4299oq.wandb
+2024-06-21 16:01:43,961 DEBUG   SenderThread:869708 [sender.py:send():379] send: header
+2024-06-21 16:01:43,964 DEBUG   SenderThread:869708 [sender.py:send():379] send: run
+2024-06-21 16:01:44,708 INFO    SenderThread:869708 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files
+2024-06-21 16:01:44,708 INFO    SenderThread:869708 [sender.py:_start_run_threads():1188] run started: rp4299oq with start time 1718956903.950766
+2024-06-21 16:01:44,717 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:01:44,717 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:01:45,804 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:01:45,814 DEBUG   HandlerThread:869708 [system_info.py:__init__():26] System info init
+2024-06-21 16:01:45,814 DEBUG   HandlerThread:869708 [system_info.py:__init__():41] System info init done
+2024-06-21 16:01:45,814 INFO    HandlerThread:869708 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:01:45,815 INFO    SystemMonitor:869708 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:01:45,815 INFO    HandlerThread:869708 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:01:45,815 INFO    SystemMonitor:869708 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:01:45,816 INFO    SystemMonitor:869708 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:01:45,817 INFO    SystemMonitor:869708 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:01:45,818 INFO    SystemMonitor:869708 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:01:45,819 INFO    SystemMonitor:869708 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:01:45,837 DEBUG   HandlerThread:869708 [system_info.py:probe():152] Probing system
+2024-06-21 16:01:45,839 DEBUG   HandlerThread:869708 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:01:45,839 DEBUG   HandlerThread:869708 [system_info.py:probe():200] Probing system done
+2024-06-21 16:01:45,839 DEBUG   HandlerThread:869708 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:01:45.838121', 'startedAt': '2024-06-21T08:01:43.944248', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2554.461464285715, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2898.032, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.164, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.853, 'min': 1200.0, 'max': 3300.0}, {'current': 2351.113, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.999, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.125, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.816, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.014, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.776, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.897, 'min': 1200.0, 'max': 3300.0}, {'current': 2651.945, 'min': 1200.0, 'max': 3300.0}, {'current': 2794.553, 'min': 1200.0, 'max': 3300.0}, {'current': 2896.823, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.745, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.019, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.453, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2516.327, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2776.812, 'min': 1200.0, 'max': 3300.0}, {'current': 2621.213, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.035, 'min': 1200.0, 'max': 3300.0}, {'current': 2892.02, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.057, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.935, 'min': 1200.0, 'max': 3300.0}, {'current': 2807.142, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.004, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.3500137329102}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:01:45,840 INFO    HandlerThread:869708 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:01:45,840 INFO    HandlerThread:869708 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:01:45,840 DEBUG   HandlerThread:869708 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:01:46,709 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/conda-environment.yaml
+2024-06-21 16:01:53,710 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/conda-environment.yaml
+2024-06-21 16:01:53,868 DEBUG   HandlerThread:869708 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-21 16:01:53,869 INFO    HandlerThread:869708 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-21 16:01:53,873 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:01:53,873 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-21 16:01:53,874 DEBUG   SenderThread:869708 [sender.py:send():379] send: files
+2024-06-21 16:01:53,874 INFO    SenderThread:869708 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-21 16:01:54,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-21 16:01:54,137 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: python_packages
+2024-06-21 16:01:54,139 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:01:54,139 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:01:54,185 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:01:54,634 DEBUG   SenderThread:869708 [sender.py:send():379] send: telemetry
+2024-06-21 16:01:54,711 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:01:54,711 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/requirements.txt
+2024-06-21 16:01:54,711 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/wandb-metadata.json
+2024-06-21 16:01:54,906 INFO    wandb-upload_0:869708 [upload_job.py:push():130] Uploaded file /tmp/tmp6kx_n9imwandb/ocqkcrhi-wandb-metadata.json
+2024-06-21 16:01:55,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:01:55,635 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:01:56,161 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:01:56,711 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:01:57,146 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:01:58,153 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:01:58,712 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:01:59,193 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:00,155 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:00,713 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:01,149 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:01,156 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:02,155 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:03,183 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:04,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:04,714 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:05,158 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:06,189 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:06,209 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:07,163 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:08,163 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:08,715 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:09,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:02:09,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:02:09,163 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:10,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:10,716 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:11,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:11,229 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:12,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:12,717 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:13,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:14,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:14,717 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:15,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:16,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:16,361 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:16,718 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:16,718 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/config.yaml
+2024-06-21 16:02:17,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:18,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:18,718 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:19,164 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:20,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:20,719 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:21,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:21,827 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:22,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:22,720 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:23,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:24,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:02:24,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:02:24,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:24,723 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:25,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:26,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:26,724 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:26,935 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:27,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:28,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:28,724 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:29,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:30,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:30,725 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:31,165 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:32,048 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:32,166 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:32,726 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:33,166 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:34,166 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:34,726 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:35,166 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:36,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:36,727 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:37,162 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:37,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:38,166 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:38,728 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:39,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:02:39,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:02:39,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:40,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:40,729 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:41,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:42,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:42,288 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:42,729 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:43,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:44,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:44,730 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:45,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:45,820 DEBUG   SystemMonitor:869708 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-21 16:02:45,821 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:02:46,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:46,730 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:47,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:47,393 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:48,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:48,731 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:49,167 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:50,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:50,732 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:51,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:52,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:52,509 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:52,732 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:53,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:54,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:02:54,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:02:54,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:54,733 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:55,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:56,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:56,734 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:57,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:57,676 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:02:58,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:02:58,734 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:02:59,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:00,168 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:00,735 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:01,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:02,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:02,736 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:02,829 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:03,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:04,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:04,736 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:05,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:06,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:06,737 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:07,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:07,988 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:08,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:08,737 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:09,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:03:09,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:03:09,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:10,169 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:10,738 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:11,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:12,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:12,739 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:13,142 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:13,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:14,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:14,739 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:15,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:15,822 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:03:16,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:16,740 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:17,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:18,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:18,317 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:18,741 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:19,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:20,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:20,741 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:21,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:22,170 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:22,742 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:23,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:23,458 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:24,137 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:03:24,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:03:24,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:24,743 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:25,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:26,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:26,744 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:27,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:28,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:28,610 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:28,744 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:29,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:30,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:30,745 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:31,171 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:32,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:32,746 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:33,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:33,767 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:34,205 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:34,747 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:35,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:36,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:36,747 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:37,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:38,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:38,748 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:38,912 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:39,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:03:39,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:03:39,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:40,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:40,749 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:41,172 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:42,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:42,749 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:43,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:44,054 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:44,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:44,750 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:45,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:45,823 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:03:46,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:46,750 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:47,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:48,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:48,751 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:49,145 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:49,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:50,173 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:50,751 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:51,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:52,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:52,752 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:53,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:54,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:03:54,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:03:54,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:54,425 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:03:54,753 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:55,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:56,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:56,754 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:57,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:58,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:58,754 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:03:59,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:03:59,461 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:00,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:00,755 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:01,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:02,174 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:02,756 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:03,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:04,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:04,757 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:04,790 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:05,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:06,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:06,757 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:07,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:08,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:08,758 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:09,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:04:09,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:04:09,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:10,122 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:10,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:10,759 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:11,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:12,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:12,759 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:13,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:14,175 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:14,760 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:15,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:15,434 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:15,824 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:04:16,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:16,761 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:17,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:18,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:18,761 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:19,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:20,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:20,748 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:20,762 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:21,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:22,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:22,762 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:23,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:24,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:04:24,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:04:24,176 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:24,763 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:25,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:26,071 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:26,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:26,763 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:27,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:28,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:28,764 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:29,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:30,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:30,765 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:31,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:31,393 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:32,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:32,765 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:33,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:34,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:34,766 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:35,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:36,177 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:36,711 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:36,767 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:37,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:38,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:38,767 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:39,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:04:39,138 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:04:39,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:40,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:40,768 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:41,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:42,019 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:42,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:42,769 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:43,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:44,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:44,769 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:45,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:45,825 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:04:46,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:46,770 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:47,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:47,348 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:48,178 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:48,770 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:49,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:50,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:50,771 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:51,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:52,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:52,669 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:52,772 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:53,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:54,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:04:54,139 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:04:54,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:54,772 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:55,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:56,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:56,773 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:57,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:57,981 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:04:58,179 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:04:58,774 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:04:59,180 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:00,180 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:00,774 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:01,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:02,307 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:02,775 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:03,228 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:05:03,307 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:04,307 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:04,775 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:05,307 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:06,307 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:06,776 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:07,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:08,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:08,558 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:05:08,777 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:09,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:05:09,139 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:05:09,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:10,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:10,777 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:11,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:12,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:12,778 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:13,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:13,565 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:05:14,333 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:14,779 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:15,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:15,826 DEBUG   SenderThread:869708 [sender.py:send():379] send: stats
+2024-06-21 16:05:16,308 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:16,779 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:17,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:18,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:18,780 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:18,856 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:05:19,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:20,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:20,780 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:21,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:22,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:22,781 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:23,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:24,138 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:05:24,139 DEBUG   SenderThread:869708 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:05:24,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:24,445 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:05:24,782 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:25,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:26,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:26,783 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:27,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:28,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:28,783 INFO    Thread-12 :869708 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160143-rp4299oq/files/output.log
+2024-06-21 16:05:29,309 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:05:29,510 DEBUG   HandlerThread:869708 [handler.py:handle_request():158] handle_request: status_report

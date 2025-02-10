@@ -1,0 +1,32 @@
+2024-06-21 16:16:46,622 INFO    StreamThr :920311 [internal.py:wandb_internal():85] W&B internal server running at pid: 920311, started at: 2024-06-21 16:16:46.621571
+2024-06-21 16:16:46,623 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:16:46,630 INFO    WriterThread:920311 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/run-4fzwpkd6.wandb
+2024-06-21 16:16:46,630 DEBUG   SenderThread:920311 [sender.py:send():379] send: header
+2024-06-21 16:16:46,632 DEBUG   SenderThread:920311 [sender.py:send():379] send: run
+2024-06-21 16:16:46,908 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:46,961 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:47,347 INFO    SenderThread:920311 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/files
+2024-06-21 16:16:47,347 INFO    SenderThread:920311 [sender.py:_start_run_threads():1188] run started: 4fzwpkd6 with start time 1718957806.621232
+2024-06-21 16:16:47,358 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:16:47,359 DEBUG   SenderThread:920311 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:16:48,448 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:16:48,449 DEBUG   HandlerThread:920311 [system_info.py:__init__():26] System info init
+2024-06-21 16:16:48,450 DEBUG   HandlerThread:920311 [system_info.py:__init__():41] System info init done
+2024-06-21 16:16:48,450 INFO    HandlerThread:920311 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:16:48,450 INFO    SystemMonitor:920311 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:16:48,450 INFO    HandlerThread:920311 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:16:48,451 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:16:48,451 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:16:48,452 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:16:48,453 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:16:48,454 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_info.py:probe():152] Probing system
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_info.py:probe():200] Probing system done
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:16:48.466282', 'startedAt': '2024-06-21T08:16:46.615406', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2710.5136785714285, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2898.018, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.036, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.032, 'min': 1200.0, 'max': 3300.0}, {'current': 2365.812, 'min': 1200.0, 'max': 3300.0}, {'current': 2858.61, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.059, 'min': 1200.0, 'max': 3300.0}, {'current': 2498.311, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.509, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.688, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.496, 'min': 1200.0, 'max': 3300.0}, {'current': 2858.806, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.01, 'min': 1200.0, 'max': 3300.0}, {'current': 2076.089, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.06, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.945, 'min': 1200.0, 'max': 3300.0}, {'current': 2824.542, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.046, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.511, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.028, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.03, 'min': 1200.0, 'max': 3300.0}, {'current': 2499.069, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.081, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.055, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.148, 'min': 1200.0, 'max': 3300.0}, {'current': 2431.409, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.033, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.179, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.036, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.3509483337402}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:16:48,467 INFO    HandlerThread:920311 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:16:48,467 INFO    HandlerThread:920311 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:16:48,467 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:16:49,348 INFO    Thread-36 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/files/conda-environment.yaml
+2024-06-21 16:16:51,909 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:51,962 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report

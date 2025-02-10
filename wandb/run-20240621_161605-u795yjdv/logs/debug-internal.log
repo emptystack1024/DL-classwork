@@ -1,0 +1,114 @@
+2024-06-21 16:16:05,706 INFO    StreamThr :920311 [internal.py:wandb_internal():85] W&B internal server running at pid: 920311, started at: 2024-06-21 16:16:05.705490
+2024-06-21 16:16:05,707 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:16:05,715 INFO    WriterThread:920311 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161605-u795yjdv/run-u795yjdv.wandb
+2024-06-21 16:16:05,715 DEBUG   SenderThread:920311 [sender.py:send():379] send: header
+2024-06-21 16:16:05,718 DEBUG   SenderThread:920311 [sender.py:send():379] send: run
+2024-06-21 16:16:06,490 INFO    SenderThread:920311 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161605-u795yjdv/files
+2024-06-21 16:16:06,490 INFO    SenderThread:920311 [sender.py:_start_run_threads():1188] run started: u795yjdv with start time 1718957765.705285
+2024-06-21 16:16:06,499 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:16:06,499 DEBUG   SenderThread:920311 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:16:07,577 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:16:07,591 DEBUG   HandlerThread:920311 [system_info.py:__init__():26] System info init
+2024-06-21 16:16:07,591 DEBUG   HandlerThread:920311 [system_info.py:__init__():41] System info init done
+2024-06-21 16:16:07,591 INFO    HandlerThread:920311 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:16:07,591 INFO    SystemMonitor:920311 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:16:07,591 INFO    HandlerThread:920311 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:16:07,592 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:16:07,592 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:16:07,593 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:16:07,594 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:16:07,594 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:16:07,612 DEBUG   HandlerThread:920311 [system_info.py:probe():152] Probing system
+2024-06-21 16:16:07,614 DEBUG   HandlerThread:920311 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:16:07,614 DEBUG   HandlerThread:920311 [system_info.py:probe():200] Probing system done
+2024-06-21 16:16:07,614 DEBUG   HandlerThread:920311 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:16:07.612328', 'startedAt': '2024-06-21T08:16:05.699665', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2734.6338571428564, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2900.473, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.067, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.058, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.287, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.027, 'min': 1200.0, 'max': 3300.0}, {'current': 2853.924, 'min': 1200.0, 'max': 3300.0}, {'current': 2698.147, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.035, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.023, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.697, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.249, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2902.949, 'min': 1200.0, 'max': 3300.0}, {'current': 2890.65, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.354, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.026, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.297, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.943, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.895, 'min': 1200.0, 'max': 3300.0}, {'current': 3300.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2698.254, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.093, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.609, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.363, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.991, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.093, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.097, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.3582649230957}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:16:07,614 INFO    HandlerThread:920311 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:16:07,614 INFO    HandlerThread:920311 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:16:07,614 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:16:08,492 INFO    Thread-12 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161605-u795yjdv/files/conda-environment.yaml
+2024-06-21 16:16:15,717 INFO    StreamThr :920311 [internal.py:wandb_internal():85] W&B internal server running at pid: 920311, started at: 2024-06-21 16:16:15.716757
+2024-06-21 16:16:15,718 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:16:15,731 INFO    WriterThread:920311 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161615-qalddapl/run-qalddapl.wandb
+2024-06-21 16:16:15,732 DEBUG   SenderThread:920311 [sender.py:send():379] send: header
+2024-06-21 16:16:15,733 DEBUG   SenderThread:920311 [sender.py:send():379] send: run
+2024-06-21 16:16:15,952 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-21 16:16:15,953 INFO    HandlerThread:920311 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-21 16:16:15,957 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:15,957 DEBUG   SenderThread:920311 [sender.py:send():379] send: files
+2024-06-21 16:16:15,957 INFO    SenderThread:920311 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-21 16:16:16,480 INFO    SenderThread:920311 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161615-qalddapl/files
+2024-06-21 16:16:16,481 INFO    SenderThread:920311 [sender.py:_start_run_threads():1188] run started: qalddapl with start time 1718957775.716353
+2024-06-21 16:16:16,493 INFO    Thread-12 :920311 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161605-u795yjdv/files/conda-environment.yaml
+2024-06-21 16:16:16,493 INFO    Thread-12 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161605-u795yjdv/files/wandb-metadata.json
+2024-06-21 16:16:16,497 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:16:16,497 DEBUG   SenderThread:920311 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:16:16,958 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:17,076 INFO    wandb-upload_0:920311 [upload_job.py:push():130] Uploaded file /tmp/tmpfqp2z8y8wandb/nz63926d-wandb-metadata.json
+2024-06-21 16:16:17,598 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:16:17,599 DEBUG   HandlerThread:920311 [system_info.py:__init__():26] System info init
+2024-06-21 16:16:17,599 DEBUG   HandlerThread:920311 [system_info.py:__init__():41] System info init done
+2024-06-21 16:16:17,599 INFO    HandlerThread:920311 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:16:17,599 INFO    SystemMonitor:920311 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:16:17,600 INFO    HandlerThread:920311 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:16:17,600 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:16:17,600 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:16:17,601 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:16:17,602 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:16:17,604 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:16:17,623 DEBUG   HandlerThread:920311 [system_info.py:probe():152] Probing system
+2024-06-21 16:16:17,623 DEBUG   HandlerThread:920311 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:16:17,623 DEBUG   HandlerThread:920311 [system_info.py:probe():200] Probing system done
+2024-06-21 16:16:17,623 DEBUG   HandlerThread:920311 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:16:17.623344', 'startedAt': '2024-06-21T08:16:15.711262', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2874.175607142857, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2897.979, 'min': 1200.0, 'max': 3300.0}, {'current': 2840.914, 'min': 1200.0, 'max': 3300.0}, {'current': 2844.346, 'min': 1200.0, 'max': 3300.0}, {'current': 2828.792, 'min': 1200.0, 'max': 3300.0}, {'current': 2846.153, 'min': 1200.0, 'max': 3300.0}, {'current': 2834.516, 'min': 1200.0, 'max': 3300.0}, {'current': 2857.866, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.008, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.035, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.54, 'min': 1200.0, 'max': 3300.0}, {'current': 2840.468, 'min': 1200.0, 'max': 3300.0}, {'current': 2841.262, 'min': 1200.0, 'max': 3300.0}, {'current': 2841.877, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.017, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.03, 'min': 1200.0, 'max': 3300.0}, {'current': 2842.529, 'min': 1200.0, 'max': 3300.0}, {'current': 2893.271, 'min': 1200.0, 'max': 3300.0}, {'current': 2817.104, 'min': 1200.0, 'max': 3300.0}, {'current': 2883.864, 'min': 1200.0, 'max': 3300.0}, {'current': 2835.94, 'min': 1200.0, 'max': 3300.0}, {'current': 2836.875, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.001, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.029, 'min': 1200.0, 'max': 3300.0}, {'current': 2839.601, 'min': 1200.0, 'max': 3300.0}, {'current': 2890.849, 'min': 1200.0, 'max': 3300.0}, {'current': 2823.983, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.484, 'min': 1200.0, 'max': 3300.0}, {'current': 2895.784, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.358901977539}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:16:17,624 INFO    HandlerThread:920311 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:16:17,624 INFO    HandlerThread:920311 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:16:17,624 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:16:18,483 INFO    Thread-24 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161615-qalddapl/files/conda-environment.yaml
+2024-06-21 16:16:21,958 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:25,904 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-21 16:16:25,904 INFO    HandlerThread:920311 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-21 16:16:25,905 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:25,905 DEBUG   SenderThread:920311 [sender.py:send():379] send: files
+2024-06-21 16:16:25,905 INFO    SenderThread:920311 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-21 16:16:26,483 INFO    Thread-24 :920311 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161615-qalddapl/files/conda-environment.yaml
+2024-06-21 16:16:26,484 INFO    Thread-24 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161615-qalddapl/files/wandb-metadata.json
+2024-06-21 16:16:26,906 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:26,959 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:27,012 INFO    wandb-upload_0:920311 [upload_job.py:push():130] Uploaded file /tmp/tmp25mm8hfwwandb/ugrxd3ov-wandb-metadata.json
+2024-06-21 16:16:31,906 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:31,960 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:36,907 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:36,960 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:41,907 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:41,961 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:46,622 INFO    StreamThr :920311 [internal.py:wandb_internal():85] W&B internal server running at pid: 920311, started at: 2024-06-21 16:16:46.621571
+2024-06-21 16:16:46,623 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:16:46,630 INFO    WriterThread:920311 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/run-4fzwpkd6.wandb
+2024-06-21 16:16:46,630 DEBUG   SenderThread:920311 [sender.py:send():379] send: header
+2024-06-21 16:16:46,632 DEBUG   SenderThread:920311 [sender.py:send():379] send: run
+2024-06-21 16:16:46,908 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:46,961 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:47,347 INFO    SenderThread:920311 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/files
+2024-06-21 16:16:47,347 INFO    SenderThread:920311 [sender.py:_start_run_threads():1188] run started: 4fzwpkd6 with start time 1718957806.621232
+2024-06-21 16:16:47,358 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:16:47,359 DEBUG   SenderThread:920311 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:16:48,448 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:16:48,449 DEBUG   HandlerThread:920311 [system_info.py:__init__():26] System info init
+2024-06-21 16:16:48,450 DEBUG   HandlerThread:920311 [system_info.py:__init__():41] System info init done
+2024-06-21 16:16:48,450 INFO    HandlerThread:920311 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:16:48,450 INFO    SystemMonitor:920311 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:16:48,450 INFO    HandlerThread:920311 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:16:48,451 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:16:48,451 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:16:48,452 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:16:48,453 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:16:48,454 INFO    SystemMonitor:920311 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_info.py:probe():152] Probing system
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_info.py:probe():200] Probing system done
+2024-06-21 16:16:48,466 DEBUG   HandlerThread:920311 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:16:48.466282', 'startedAt': '2024-06-21T08:16:46.615406', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2710.5136785714285, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2898.018, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.036, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.032, 'min': 1200.0, 'max': 3300.0}, {'current': 2365.812, 'min': 1200.0, 'max': 3300.0}, {'current': 2858.61, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.059, 'min': 1200.0, 'max': 3300.0}, {'current': 2498.311, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.509, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.688, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.496, 'min': 1200.0, 'max': 3300.0}, {'current': 2858.806, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.01, 'min': 1200.0, 'max': 3300.0}, {'current': 2076.089, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.06, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.945, 'min': 1200.0, 'max': 3300.0}, {'current': 2824.542, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.046, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.511, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.028, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.03, 'min': 1200.0, 'max': 3300.0}, {'current': 2499.069, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.081, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.055, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.148, 'min': 1200.0, 'max': 3300.0}, {'current': 2431.409, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.033, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.179, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.036, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.3509483337402}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:16:48,467 INFO    HandlerThread:920311 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:16:48,467 INFO    HandlerThread:920311 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:16:48,467 DEBUG   HandlerThread:920311 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:16:49,348 INFO    Thread-36 :920311 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_161646-4fzwpkd6/files/conda-environment.yaml
+2024-06-21 16:16:51,909 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:16:51,962 DEBUG   HandlerThread:920311 [handler.py:handle_request():158] handle_request: status_report

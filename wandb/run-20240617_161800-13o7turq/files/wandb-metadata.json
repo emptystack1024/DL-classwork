@@ -1,0 +1,185 @@
+{
+    "os": "Linux-6.5.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-06-17T08:18:02.041957",
+    "startedAt": "2024-06-17T08:18:00.171156",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "ubuntu-all-series",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/anaconda3/envs/yolo/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1822.9900714285711,
+        "min": 1200.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2098.64,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2096.188,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.239,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2401.455,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2398.454,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2098.238,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1399.102,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2395.928,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.221,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2900.078,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2894.834,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.275,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2097.804,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2098.43,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.597,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2895.218,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.419,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2397.943,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2398.455,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1399.1,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1220.466,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.558,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2898.223,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1200.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.409,
+            "min": 1200.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 2914.695198059082,
+            "used": 899.1825103759766
+        }
+    },
+    "gpu": "Tesla M40 24GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "Tesla M40 24GB",
+            "memory_total": 24159191040
+        },
+        {
+            "name": "NVIDIA P102-100",
+            "memory_total": 10737418240
+        }
+    ],
+    "memory": {
+        "total": 62.69675827026367
+    }
+}

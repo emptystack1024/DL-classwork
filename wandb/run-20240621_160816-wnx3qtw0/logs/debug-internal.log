@@ -1,0 +1,107 @@
+2024-06-21 16:08:16,223 INFO    StreamThr :892674 [internal.py:wandb_internal():85] W&B internal server running at pid: 892674, started at: 2024-06-21 16:08:16.222289
+2024-06-21 16:08:16,224 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status
+2024-06-21 16:08:16,236 INFO    WriterThread:892674 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/run-wnx3qtw0.wandb
+2024-06-21 16:08:16,236 DEBUG   SenderThread:892674 [sender.py:send():379] send: header
+2024-06-21 16:08:16,239 DEBUG   SenderThread:892674 [sender.py:send():379] send: run
+2024-06-21 16:08:17,135 INFO    SenderThread:892674 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files
+2024-06-21 16:08:17,135 INFO    SenderThread:892674 [sender.py:_start_run_threads():1188] run started: wnx3qtw0 with start time 1718957296.221996
+2024-06-21 16:08:17,143 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 16:08:17,144 DEBUG   SenderThread:892674 [sender.py:send_request():406] send_request: check_version
+2024-06-21 16:08:18,237 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 16:08:18,251 DEBUG   HandlerThread:892674 [system_info.py:__init__():26] System info init
+2024-06-21 16:08:18,251 DEBUG   HandlerThread:892674 [system_info.py:__init__():41] System info init done
+2024-06-21 16:08:18,251 INFO    HandlerThread:892674 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 16:08:18,251 INFO    SystemMonitor:892674 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 16:08:18,251 INFO    HandlerThread:892674 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 16:08:18,252 INFO    SystemMonitor:892674 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 16:08:18,252 INFO    SystemMonitor:892674 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 16:08:18,253 INFO    SystemMonitor:892674 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 16:08:18,254 INFO    SystemMonitor:892674 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 16:08:18,255 INFO    SystemMonitor:892674 [interfaces.py:start():188] Started network monitoring
+2024-06-21 16:08:18,272 DEBUG   HandlerThread:892674 [system_info.py:probe():152] Probing system
+2024-06-21 16:08:18,273 DEBUG   HandlerThread:892674 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 16:08:18,273 DEBUG   HandlerThread:892674 [system_info.py:probe():200] Probing system done
+2024-06-21 16:08:18,273 DEBUG   HandlerThread:892674 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T08:08:18.272155', 'startedAt': '2024-06-21T08:08:16.216539', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2420.0183928571428, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2880.406, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.296, 'min': 1200.0, 'max': 3300.0}, {'current': 2805.144, 'min': 1200.0, 'max': 3300.0}, {'current': 2858.273, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.778, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.903, 'min': 1200.0, 'max': 3300.0}, {'current': 2831.655, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.978, 'min': 1200.0, 'max': 3300.0}, {'current': 2802.935, 'min': 1200.0, 'max': 3300.0}, {'current': 2758.493, 'min': 1200.0, 'max': 3300.0}, {'current': 2793.826, 'min': 1200.0, 'max': 3300.0}, {'current': 2444.345, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.179, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.722, 'min': 1200.0, 'max': 3300.0}, {'current': 2893.597, 'min': 1200.0, 'max': 3300.0}, {'current': 2804.904, 'min': 1200.0, 'max': 3300.0}, {'current': 2850.605, 'min': 1200.0, 'max': 3300.0}, {'current': 2807.153, 'min': 1200.0, 'max': 3300.0}, {'current': 2831.834, 'min': 1200.0, 'max': 3300.0}, {'current': 2799.178, 'min': 1200.0, 'max': 3300.0}, {'current': 2799.1, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.035, 'min': 1200.0, 'max': 3300.0}, {'current': 2811.96, 'min': 1200.0, 'max': 3300.0}, {'current': 2729.024, 'min': 1200.0, 'max': 3300.0}, {'current': 2850.573, 'min': 1200.0, 'max': 3300.0}, {'current': 2826.457, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.329, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.367, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1064.347324371338}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 16:08:18,273 INFO    HandlerThread:892674 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 16:08:18,273 INFO    HandlerThread:892674 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 16:08:18,274 DEBUG   HandlerThread:892674 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 16:08:19,136 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/conda-environment.yaml
+2024-06-21 16:08:26,137 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/conda-environment.yaml
+2024-06-21 16:08:26,352 DEBUG   HandlerThread:892674 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-21 16:08:26,353 INFO    HandlerThread:892674 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-21 16:08:26,357 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:26,358 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-21 16:08:26,358 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:26,358 DEBUG   SenderThread:892674 [sender.py:send():379] send: files
+2024-06-21 16:08:26,358 INFO    SenderThread:892674 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-21 16:08:26,632 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-21 16:08:26,632 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:08:26,633 DEBUG   SenderThread:892674 [sender.py:send_request():406] send_request: python_packages
+2024-06-21 16:08:26,633 DEBUG   SenderThread:892674 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:08:26,635 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:27,116 DEBUG   SenderThread:892674 [sender.py:send():379] send: telemetry
+2024-06-21 16:08:27,137 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/wandb-metadata.json
+2024-06-21 16:08:27,138 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/requirements.txt
+2024-06-21 16:08:27,138 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:27,392 INFO    wandb-upload_0:892674 [upload_job.py:push():130] Uploaded file /tmp/tmpmrxsgb74wandb/c8f49zpf-wandb-metadata.json
+2024-06-21 16:08:27,633 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:28,649 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:29,138 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:29,887 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:30,919 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:31,635 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:31,883 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:32,139 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:32,890 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:33,139 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:34,140 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:35,139 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:36,140 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:36,639 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:37,136 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:37,140 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:38,191 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:39,191 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:40,247 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:41,142 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:41,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:41,633 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:08:41,633 DEBUG   SenderThread:892674 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:08:41,910 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:42,142 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:42,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:43,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:44,142 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:44,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:45,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:46,143 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:46,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:47,165 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:47,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:48,144 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/config.yaml
+2024-06-21 16:08:48,144 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:48,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:49,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:50,144 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:50,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:51,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:52,145 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:52,197 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:52,477 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 16:08:53,198 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:54,146 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:54,198 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:55,198 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:56,146 INFO    Thread-12 :892674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_160816-wnx3qtw0/files/output.log
+2024-06-21 16:08:56,198 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:56,633 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 16:08:56,633 DEBUG   SenderThread:892674 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 16:08:57,199 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 16:08:57,606 DEBUG   HandlerThread:892674 [handler.py:handle_request():158] handle_request: pause
+2024-06-21 16:08:57,607 INFO    HandlerThread:892674 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-21 16:08:57,607 INFO    HandlerThread:892674 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-21 16:08:57,607 DEBUG   SystemMonitor:892674 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-21 16:08:57,607 DEBUG   SystemMonitor:892674 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-21 16:08:57,607 INFO    HandlerThread:892674 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-21 16:08:57,607 DEBUG   SystemMonitor:892674 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-21 16:08:57,608 INFO    HandlerThread:892674 [interfaces.py:finish():200] Joined disk monitor

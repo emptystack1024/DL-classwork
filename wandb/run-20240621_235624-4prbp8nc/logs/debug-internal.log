@@ -1,0 +1,105 @@
+2024-06-21 23:56:24,555 INFO    StreamThr :2018347 [internal.py:wandb_internal():85] W&B internal server running at pid: 2018347, started at: 2024-06-21 23:56:24.552469
+2024-06-21 23:56:24,557 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status
+2024-06-21 23:56:24,565 INFO    WriterThread:2018347 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/run-4prbp8nc.wandb
+2024-06-21 23:56:24,565 DEBUG   SenderThread:2018347 [sender.py:send():379] send: header
+2024-06-21 23:56:24,569 DEBUG   SenderThread:2018347 [sender.py:send():379] send: run
+2024-06-21 23:56:25,342 INFO    SenderThread:2018347 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files
+2024-06-21 23:56:25,342 INFO    SenderThread:2018347 [sender.py:_start_run_threads():1188] run started: 4prbp8nc with start time 1718985384.552269
+2024-06-21 23:56:25,351 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: check_version
+2024-06-21 23:56:25,352 DEBUG   SenderThread:2018347 [sender.py:send_request():406] send_request: check_version
+2024-06-21 23:56:26,701 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: run_start
+2024-06-21 23:56:26,718 DEBUG   HandlerThread:2018347 [system_info.py:__init__():26] System info init
+2024-06-21 23:56:26,718 DEBUG   HandlerThread:2018347 [system_info.py:__init__():41] System info init done
+2024-06-21 23:56:26,718 INFO    HandlerThread:2018347 [system_monitor.py:start():194] Starting system monitor
+2024-06-21 23:56:26,719 INFO    SystemMonitor:2018347 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-21 23:56:26,719 INFO    HandlerThread:2018347 [system_monitor.py:probe():214] Collecting system info
+2024-06-21 23:56:26,719 INFO    SystemMonitor:2018347 [interfaces.py:start():188] Started cpu monitoring
+2024-06-21 23:56:26,720 INFO    SystemMonitor:2018347 [interfaces.py:start():188] Started disk monitoring
+2024-06-21 23:56:26,721 INFO    SystemMonitor:2018347 [interfaces.py:start():188] Started gpu monitoring
+2024-06-21 23:56:26,722 INFO    SystemMonitor:2018347 [interfaces.py:start():188] Started memory monitoring
+2024-06-21 23:56:26,723 INFO    SystemMonitor:2018347 [interfaces.py:start():188] Started network monitoring
+2024-06-21 23:56:26,742 DEBUG   HandlerThread:2018347 [system_info.py:probe():152] Probing system
+2024-06-21 23:56:26,744 DEBUG   HandlerThread:2018347 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-21 23:56:26,744 DEBUG   HandlerThread:2018347 [system_info.py:probe():200] Probing system done
+2024-06-21 23:56:26,744 DEBUG   HandlerThread:2018347 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-21T15:56:26.742819', 'startedAt': '2024-06-21T15:56:24.546671', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2847.3359642857145, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2910.749, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.096, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.359, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.008, 'min': 1200.0, 'max': 3300.0}, {'current': 2820.312, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.092, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.031, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.986, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.056, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.025, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.147, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.223, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.607, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.717, 'min': 1200.0, 'max': 3300.0}, {'current': 2815.576, 'min': 1200.0, 'max': 3300.0}, {'current': 2799.587, 'min': 1200.0, 'max': 3300.0}, {'current': 2398.402, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.033, 'min': 1200.0, 'max': 3300.0}, {'current': 2857.388, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.092, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.039, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.015, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.022, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.765, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.021, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.096, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.591, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.815, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 1065.122356414795}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 62.696754455566406}}
+2024-06-21 23:56:26,745 INFO    HandlerThread:2018347 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-21 23:56:26,745 INFO    HandlerThread:2018347 [system_monitor.py:probe():227] Publishing system info
+2024-06-21 23:56:26,745 DEBUG   HandlerThread:2018347 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-21 23:56:27,344 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/conda-environment.yaml
+2024-06-21 23:56:36,076 DEBUG   HandlerThread:2018347 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-21 23:56:36,077 INFO    HandlerThread:2018347 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-21 23:56:36,084 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:36,084 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-21 23:56:36,084 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:36,085 DEBUG   SenderThread:2018347 [sender.py:send():379] send: files
+2024-06-21 23:56:36,085 INFO    SenderThread:2018347 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-21 23:56:36,345 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/conda-environment.yaml
+2024-06-21 23:56:36,346 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/wandb-metadata.json
+2024-06-21 23:56:36,366 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-21 23:56:36,367 DEBUG   SenderThread:2018347 [sender.py:send_request():406] send_request: python_packages
+2024-06-21 23:56:36,367 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 23:56:36,368 DEBUG   SenderThread:2018347 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 23:56:36,371 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:36,802 DEBUG   SenderThread:2018347 [sender.py:send():379] send: telemetry
+2024-06-21 23:56:37,090 INFO    wandb-upload_0:2018347 [upload_job.py:push():130] Uploaded file /tmp/tmpa3f6v2fnwandb/5rtly4bs-wandb-metadata.json
+2024-06-21 23:56:37,346 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/requirements.txt
+2024-06-21 23:56:37,346 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:37,368 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:38,368 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:39,346 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:39,372 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:39,883 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:40,399 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:41,348 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:41,415 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:42,348 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:42,451 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:43,349 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:43,450 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:44,464 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:45,457 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:45,614 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:46,456 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:47,456 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:48,456 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:49,350 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:49,497 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:50,461 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:50,676 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:51,367 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-21 23:56:51,368 DEBUG   SenderThread:2018347 [sender.py:send_request():406] send_request: stop_status
+2024-06-21 23:56:51,461 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:52,351 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:52,465 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:53,352 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:53,462 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:54,352 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:54,462 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:55,462 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:55,953 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:56:56,353 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/config.yaml
+2024-06-21 23:56:56,353 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:56,473 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:57,462 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:58,353 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:56:58,462 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:59,510 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:56:59,775 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: pause
+2024-06-21 23:56:59,775 INFO    HandlerThread:2018347 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-21 23:56:59,775 INFO    HandlerThread:2018347 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-21 23:56:59,775 DEBUG   SystemMonitor:2018347 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-21 23:56:59,775 INFO    HandlerThread:2018347 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-21 23:56:59,776 DEBUG   SystemMonitor:2018347 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-21 23:56:59,776 INFO    HandlerThread:2018347 [interfaces.py:finish():200] Joined disk monitor
+2024-06-21 23:56:59,776 DEBUG   SystemMonitor:2018347 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-21 23:57:00,065 INFO    HandlerThread:2018347 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-21 23:57:00,065 INFO    HandlerThread:2018347 [interfaces.py:finish():200] Joined memory monitor
+2024-06-21 23:57:00,065 INFO    HandlerThread:2018347 [interfaces.py:finish():200] Joined network monitor
+2024-06-21 23:57:00,066 DEBUG   SenderThread:2018347 [sender.py:send():379] send: stats
+2024-06-21 23:57:00,354 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:57:00,468 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:57:01,369 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: status_report
+2024-06-21 23:57:01,469 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:57:02,355 INFO    Thread-12 :2018347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_235624-4prbp8nc/files/output.log
+2024-06-21 23:57:02,469 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-21 23:57:03,469 DEBUG   HandlerThread:2018347 [handler.py:handle_request():158] handle_request: internal_messages

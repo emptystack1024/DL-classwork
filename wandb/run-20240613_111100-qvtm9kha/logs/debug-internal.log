@@ -1,0 +1,1412 @@
+2024-06-13 11:11:00,526 INFO    StreamThr :1538515 [internal.py:wandb_internal():85] W&B internal server running at pid: 1538515, started at: 2024-06-13 11:11:00.525244
+2024-06-13 11:11:00,527 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status
+2024-06-13 11:11:00,537 INFO    WriterThread:1538515 [datastore.py:open_for_write():87] open: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/run-qvtm9kha.wandb
+2024-06-13 11:11:00,537 DEBUG   SenderThread:1538515 [sender.py:send():379] send: header
+2024-06-13 11:11:00,540 DEBUG   SenderThread:1538515 [sender.py:send():379] send: run
+2024-06-13 11:11:01,403 INFO    SenderThread:1538515 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files
+2024-06-13 11:11:01,403 INFO    SenderThread:1538515 [sender.py:_start_run_threads():1188] run started: qvtm9kha with start time 1718248260.531878
+2024-06-13 11:11:01,421 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: check_version
+2024-06-13 11:11:01,421 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: check_version
+2024-06-13 11:11:02,507 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: run_start
+2024-06-13 11:11:02,518 DEBUG   HandlerThread:1538515 [system_info.py:__init__():26] System info init
+2024-06-13 11:11:02,518 DEBUG   HandlerThread:1538515 [system_info.py:__init__():41] System info init done
+2024-06-13 11:11:02,518 INFO    HandlerThread:1538515 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 11:11:02,518 INFO    SystemMonitor:1538515 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 11:11:02,518 INFO    HandlerThread:1538515 [system_monitor.py:probe():214] Collecting system info
+2024-06-13 11:11:02,519 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 11:11:02,519 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 11:11:02,520 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 11:11:02,521 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 11:11:02,521 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started network monitoring
+2024-06-13 11:11:02,546 DEBUG   HandlerThread:1538515 [system_info.py:probe():152] Probing system
+2024-06-13 11:11:02,548 DEBUG   HandlerThread:1538515 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-13 11:11:02,548 DEBUG   HandlerThread:1538515 [system_info.py:probe():200] Probing system done
+2024-06-13 11:11:02,548 DEBUG   HandlerThread:1538515 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.14', 'heartbeatAt': '2024-06-13T03:11:02.546921', 'startedAt': '2024-06-13T03:11:00.520603', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'ubuntu-all-series', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yolo/bin/python', 'cpu_count': 14, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2804.545285714285, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 2900.351, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.955, 'min': 1200.0, 'max': 3300.0}, {'current': 2597.703, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.124, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.9, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.494, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.326, 'min': 1200.0, 'max': 3300.0}, {'current': 2897.674, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.501, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.546, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.537, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.273, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.831, 'min': 1200.0, 'max': 3300.0}, {'current': 2098.034, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.537, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.497, 'min': 1200.0, 'max': 3300.0}, {'current': 2598.582, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.713, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.485, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.497, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.543, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.547, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.465, 'min': 1200.0, 'max': 3300.0}, {'current': 2798.539, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.451, 'min': 1200.0, 'max': 3300.0}, {'current': 2898.246, 'min': 1200.0, 'max': 3300.0}, {'current': 2805.851, 'min': 1200.0, 'max': 3300.0}, {'current': 2099.562, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 2914.695198059082, 'used': 785.5335464477539}}, 'gpu': 'Tesla M40 24GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla M40 24GB', 'memory_total': 24159191040}, {'name': 'NVIDIA P102-100', 'memory_total': 10737418240}], 'memory': {'total': 31.24365234375}}
+2024-06-13 11:11:02,548 INFO    HandlerThread:1538515 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-13 11:11:02,549 INFO    HandlerThread:1538515 [system_monitor.py:probe():227] Publishing system info
+2024-06-13 11:11:02,549 DEBUG   HandlerThread:1538515 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-13 11:11:03,405 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/conda-environment.yaml
+2024-06-13 11:11:11,029 DEBUG   HandlerThread:1538515 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-13 11:11:11,030 INFO    HandlerThread:1538515 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-13 11:11:11,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:11,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 11:11:11,049 DEBUG   SenderThread:1538515 [sender.py:send():379] send: files
+2024-06-13 11:11:11,049 INFO    SenderThread:1538515 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-13 11:11:11,316 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-13 11:11:11,317 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: python_packages
+2024-06-13 11:11:11,317 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:11:11,318 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:11:11,319 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:11,406 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/conda-environment.yaml
+2024-06-13 11:11:11,406 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/wandb-metadata.json
+2024-06-13 11:11:11,406 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/requirements.txt
+2024-06-13 11:11:11,779 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:11,779 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:11,779 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:11,815 DEBUG   SenderThread:1538515 [sender.py:send():379] send: telemetry
+2024-06-13 11:11:11,815 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:12,318 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:12,406 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:12,889 DEBUG   SenderThread:1538515 [sender.py:send():379] send: telemetry
+2024-06-13 11:11:13,166 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:13,166 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:13,166 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:13,318 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:14,318 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:14,407 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:15,338 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:15,694 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:15,694 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:15,694 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:15,694 INFO    wandb-upload_0:1538515 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2838, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2869, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2838, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-06-13 11:11:16,319 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:16,408 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:16,879 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:17,352 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:18,365 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:18,408 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:19,341 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:20,333 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:20,816 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:20,816 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:20,816 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:21,536 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:22,411 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:22,563 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:22,593 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:23,513 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:24,539 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:25,509 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:26,317 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:11:26,318 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:11:26,415 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:26,514 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:27,526 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:27,661 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:28,523 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:29,529 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:30,329 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:30,329 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:30,329 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:30,529 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:31,575 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:32,416 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:32,580 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:33,555 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:33,591 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:34,417 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/config.yaml
+2024-06-13 11:11:34,545 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:35,545 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:36,418 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:36,545 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:37,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:38,418 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:38,545 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:38,944 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:39,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:40,419 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:40,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:41,321 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:11:41,321 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:11:41,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:42,420 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:42,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:43,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:44,158 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:44,421 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:44,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:45,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:46,421 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:46,570 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:47,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:48,255 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:11:48,256 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:11:48,256 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:11:48,422 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:48,546 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:49,366 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:49,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:50,423 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:50,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:51,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:52,423 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:52,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:53,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:54,424 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:54,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:54,577 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:11:55,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:56,317 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:11:56,318 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:11:56,424 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:56,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:57,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:58,425 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:11:58,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:59,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:11:59,590 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:00,426 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:00,547 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:01,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:02,427 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:02,521 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 11:12:02,523 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:12:02,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:03,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:04,428 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:04,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:04,793 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:05,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:06,428 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:06,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:07,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:08,429 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:08,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:09,548 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:09,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:10,429 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:10,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:11,318 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:12:11,318 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:12:11,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:12,430 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:12,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:13,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:14,431 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:14,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:14,883 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:15,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:16,431 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:16,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:17,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:18,432 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:18,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:19,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:19,900 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:20,433 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:20,549 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:21,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:22,434 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:22,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:23,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:24,434 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:24,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:24,924 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:25,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:26,065 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:12:26,066 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:12:26,066 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:12:26,317 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:12:26,318 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:12:26,435 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:26,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:27,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:28,436 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:28,550 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:29,551 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:29,935 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:30,436 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:30,551 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:31,229 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 11:12:31,229 INFO    HandlerThread:1538515 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 11:12:31,229 INFO    HandlerThread:1538515 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 11:12:31,229 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 11:12:31,230 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 11:12:31,232 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 11:12:31,232 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 11:12:31,519 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 11:12:31,520 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 11:12:31,520 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 11:12:31,520 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:12:31,551 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:32,007 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 11:12:32,007 INFO    HandlerThread:1538515 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 11:12:32,007 INFO    HandlerThread:1538515 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 11:12:32,007 INFO    SystemMonitor:1538515 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 11:12:32,008 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 11:12:32,008 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 11:12:32,009 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 11:12:32,010 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 11:12:32,011 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started network monitoring
+2024-06-13 11:12:32,437 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:32,551 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:33,551 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:34,438 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:34,577 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:34,975 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:35,556 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:36,439 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:36,960 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:37,964 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:38,440 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:38,964 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:39,963 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:39,990 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:40,998 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:41,369 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:12:41,369 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:12:42,008 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:42,445 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:43,004 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:44,013 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:44,445 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:45,021 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:45,082 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:46,020 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:47,020 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:48,020 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:49,025 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:50,035 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:50,952 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:51,044 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:52,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:52,448 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:53,073 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:54,046 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:55,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:56,047 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:56,262 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:12:56,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:12:56,323 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:12:56,449 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:57,047 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:58,047 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:12:58,450 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:12:59,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:00,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:00,450 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:01,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:01,264 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:02,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:02,451 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:03,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:04,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:04,452 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:05,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:06,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:06,298 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:06,452 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:07,048 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:08,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:08,453 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:09,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:10,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:10,453 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:11,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:11,314 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:11,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:13:11,323 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:13:12,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:12,454 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:13,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:14,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:14,455 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:15,049 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:16,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:16,350 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:16,456 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:17,070 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:18,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:18,456 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:19,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:20,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:20,457 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:21,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:21,381 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:22,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:22,458 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:23,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:24,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:24,458 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:25,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:26,050 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:26,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:13:26,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:13:26,459 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:26,632 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:27,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:28,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:28,460 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:29,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:30,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:30,460 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:31,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:31,750 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:32,011 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 11:13:32,012 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:13:32,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:32,461 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:33,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:34,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:34,462 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:35,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:36,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:36,462 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:36,857 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:37,051 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:38,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:38,463 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:39,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:39,637 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:13:39,637 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:13:39,637 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:13:40,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:40,464 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:41,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:41,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:13:41,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:13:41,933 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:42,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:42,464 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:43,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:44,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:44,465 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:45,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:46,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:46,466 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:46,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:47,052 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:47,591 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 11:13:47,592 INFO    HandlerThread:1538515 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 11:13:47,592 INFO    HandlerThread:1538515 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 11:13:47,592 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 11:13:47,593 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 11:13:47,593 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 11:13:47,593 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 11:13:47,873 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 11:13:47,873 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 11:13:47,873 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 11:13:47,874 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:13:48,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:48,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 11:13:48,324 INFO    HandlerThread:1538515 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 11:13:48,324 INFO    HandlerThread:1538515 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 11:13:48,325 INFO    SystemMonitor:1538515 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 11:13:48,325 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 11:13:48,326 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 11:13:48,327 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 11:13:48,327 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 11:13:48,328 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started network monitoring
+2024-06-13 11:13:48,466 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:49,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:50,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:50,467 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:51,055 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:51,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:52,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:52,468 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:53,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:54,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:54,468 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:13:55,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:56,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:56,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:13:56,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:13:57,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:57,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:13:58,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:13:59,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:00,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:01,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:02,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:03,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:03,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:04,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:05,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:06,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:07,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:08,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:08,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:09,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:10,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:11,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:11,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:14:11,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:14:12,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:13,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:13,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:14,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:15,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:16,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:17,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:18,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:18,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:19,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:20,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:21,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:22,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:23,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:24,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:24,958 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:25,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:26,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:26,323 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:14:26,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:14:27,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:28,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:29,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:30,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:30,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:31,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:32,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:33,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:34,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:35,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:35,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:36,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:37,104 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:38,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:39,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:40,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:41,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:41,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:14:41,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:14:41,672 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:42,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:43,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:44,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:45,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:46,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:46,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:47,105 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:48,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:48,329 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 11:14:48,330 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:14:49,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:50,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:51,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:51,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:52,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:53,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:54,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:55,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:56,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:56,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:14:56,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:14:57,004 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:14:57,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:58,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:14:59,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:00,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:01,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:02,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:02,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:03,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:04,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:05,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:06,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:07,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:07,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:08,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:09,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:10,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:11,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:11,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:15:11,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:15:12,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:13,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:13,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:14,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:15,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:16,108 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:17,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:18,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:18,331 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:15:19,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:19,332 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:20,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:21,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:22,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:23,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:24,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:24,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:25,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:26,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:26,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:15:26,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:15:27,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:28,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:29,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:29,959 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:30,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:31,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:32,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:33,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:34,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:35,110 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:35,960 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:36,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:37,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:38,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:39,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:40,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:40,960 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:41,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:41,324 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:15:41,324 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:15:42,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:43,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:44,111 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:45,147 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:45,960 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:46,133 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:47,122 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:48,333 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:15:48,501 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:15:49,044 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:50,070 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:51,000 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:51,081 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:52,071 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:52,502 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:15:53,071 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:54,071 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:55,093 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:56,027 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:15:56,094 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:56,338 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:15:56,338 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:15:57,114 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:58,106 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:15:59,185 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:00,141 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:00,505 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:01,152 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:01,442 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:02,116 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:02,506 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:03,116 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:04,116 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:04,507 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:05,116 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:06,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:06,507 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:06,633 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:07,158 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:08,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:08,508 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:09,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:10,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:10,509 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:10,867 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:16:10,868 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:16:10,868 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:16:11,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:11,336 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:16:11,336 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:16:11,648 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:12,142 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:12,509 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:13,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:14,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:14,510 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:15,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:16,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:16,511 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:16,866 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:17,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:18,117 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:18,333 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:16:18,511 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:19,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:20,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:20,512 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:21,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:21,899 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:22,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:22,513 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:23,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:24,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:24,514 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:25,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:26,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:26,336 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:16:26,336 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:16:26,514 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:27,028 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:27,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:28,118 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:28,515 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:29,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:30,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:30,516 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:31,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:32,028 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:32,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:32,516 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:33,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:34,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:34,517 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:35,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:36,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:36,517 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:37,029 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:37,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:38,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:38,518 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:39,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:40,119 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:40,519 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:41,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:41,336 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:16:41,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:16:42,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:42,186 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:42,519 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:43,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:44,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:44,520 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:45,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:46,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:46,520 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:47,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:47,243 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:48,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:48,335 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:16:48,521 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:49,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:50,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:50,522 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:51,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:52,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:52,284 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:52,522 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:53,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:54,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:54,523 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:55,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:56,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:56,370 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:16:56,371 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:16:56,524 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:57,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:57,303 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:16:58,121 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:16:58,524 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:16:59,123 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:00,122 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:00,525 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:01,122 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:02,166 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:02,370 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:02,525 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:03,122 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:04,138 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:04,227 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 11:17:04,228 INFO    HandlerThread:1538515 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 11:17:04,228 INFO    HandlerThread:1538515 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 11:17:04,228 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 11:17:04,228 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 11:17:04,228 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 11:17:04,229 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 11:17:04,514 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 11:17:04,515 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 11:17:04,515 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 11:17:04,515 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:17:04,526 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:05,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:06,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:06,527 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:07,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:08,029 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:08,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 11:17:08,053 INFO    HandlerThread:1538515 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 11:17:08,053 INFO    HandlerThread:1538515 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 11:17:08,053 INFO    SystemMonitor:1538515 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 11:17:08,054 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 11:17:08,054 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 11:17:08,055 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 11:17:08,055 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 11:17:08,056 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started network monitoring
+2024-06-13 11:17:08,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:09,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:10,128 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:10,528 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:11,203 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:11,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:17:11,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:17:12,203 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:12,528 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:13,631 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:13,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:14,529 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:17:14,723 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:15,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:16,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:17,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:18,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:19,029 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:19,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:20,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:21,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:22,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:23,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:24,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:24,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:25,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:26,336 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:17:26,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:17:26,724 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:27,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:28,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:29,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:30,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:30,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:31,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:32,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:33,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:34,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:35,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:35,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:36,725 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:37,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:38,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:39,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:40,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:40,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:41,336 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:17:41,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:17:41,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:42,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:43,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:44,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:45,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:46,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:46,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:47,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:48,726 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:49,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:50,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:51,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:51,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:52,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:53,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:54,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:55,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:56,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:17:56,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:17:56,713 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:17:56,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:57,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:58,727 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:17:59,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:00,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:01,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:02,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:02,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:03,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:04,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:05,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:06,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:07,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:08,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:08,056 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 11:18:08,057 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:18:08,728 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:09,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:10,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:11,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:18:11,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:18:11,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:12,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:13,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:14,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:14,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:15,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:16,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:17,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:18,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:19,030 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:19,729 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:20,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:21,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:22,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:23,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:24,031 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:24,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:25,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:26,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:18:26,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:18:26,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:27,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:28,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:29,031 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:29,730 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:30,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:31,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:32,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:33,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:34,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:35,031 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:35,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:36,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:37,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:38,059 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:18:38,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:39,731 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:40,060 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:40,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:41,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:18:41,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:18:41,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:42,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:43,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:44,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:45,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:46,031 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:46,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:47,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:48,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:49,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:50,732 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:51,032 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:51,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:52,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:53,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:54,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:55,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:56,337 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:18:56,337 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:18:56,654 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:18:56,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:57,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:58,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:18:59,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:00,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:01,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:02,031 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:02,733 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:03,734 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:04,769 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:05,786 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:06,744 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:07,032 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:07,744 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:08,059 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:19:08,595 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:09,026 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:10,033 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:11,063 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:11,355 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:19:11,355 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:19:12,045 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:12,061 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:12,597 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:13,076 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:14,072 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:15,072 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:16,080 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:17,046 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:17,085 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:18,082 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:19,122 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:20,087 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:20,600 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:21,133 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:22,065 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:22,120 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:23,098 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:24,098 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:24,601 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:25,098 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:26,098 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:26,354 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:19:26,354 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:19:26,602 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:27,098 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:27,258 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:28,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:28,603 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:29,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:30,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:30,603 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:31,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:32,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:32,294 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:32,604 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:33,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:34,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:34,605 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:35,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:36,099 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:36,605 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:37,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:37,466 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:38,061 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:19:38,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:38,606 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:39,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:40,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:40,607 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:41,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:41,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:19:41,348 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:19:42,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:42,607 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:42,688 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:43,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:44,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:44,608 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:45,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:46,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:46,609 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:47,100 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:47,910 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:48,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:48,609 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:49,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:50,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:50,610 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:51,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:52,101 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:52,611 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:52,932 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:53,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:54,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:54,611 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:55,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:56,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:56,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:19:56,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:19:56,612 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:57,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:57,949 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:19:58,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:19:58,612 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:19:59,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:00,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:00,613 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:01,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:02,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:02,614 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:02,987 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:03,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:04,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:04,614 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:05,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:06,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:06,615 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:07,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:08,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:08,062 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:20:08,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:08,616 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:09,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:10,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:10,617 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:11,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:11,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:20:11,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:20:12,142 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:12,617 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:13,140 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:13,467 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 11:20:13,467 INFO    HandlerThread:1538515 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 11:20:13,467 INFO    HandlerThread:1538515 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 11:20:13,467 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 11:20:13,468 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 11:20:13,468 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 11:20:13,469 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 11:20:13,778 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 11:20:13,778 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 11:20:13,778 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 11:20:13,779 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:20:13,779 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:14,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:14,618 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:14,985 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: resume
+2024-06-13 11:20:14,985 INFO    HandlerThread:1538515 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-13 11:20:14,985 INFO    HandlerThread:1538515 [system_monitor.py:start():194] Starting system monitor
+2024-06-13 11:20:14,986 INFO    SystemMonitor:1538515 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-13 11:20:14,986 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started cpu monitoring
+2024-06-13 11:20:14,986 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started disk monitoring
+2024-06-13 11:20:14,987 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started gpu monitoring
+2024-06-13 11:20:14,988 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started memory monitoring
+2024-06-13 11:20:14,988 INFO    SystemMonitor:1538515 [interfaces.py:start():188] Started network monitoring
+2024-06-13 11:20:15,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:16,107 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:16,618 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:17,148 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:18,112 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:18,619 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:19,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:19,112 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:20,620 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:20:20,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:21,832 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:22,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:23,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:24,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:25,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:25,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:26,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:20:26,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:20:26,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:27,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:28,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:29,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:30,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:30,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:31,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:31,939 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2845] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/3339811384/YOLOv8/qvtm9kha/wandb-metadata.json?Expires=1718334671&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=wP87TwrXBrgfo%2FOzkLVd3XgAh%2B9N8qEauturRhj7d3bJMJGflaMatbN5hgM4I62kdOaS%2FozM5qtUS3wePUKDBWwjZrJ2W%2B6d%2BkKYxQCkHIWM%2FeoEIYvYQtS5JbUMtKVP4yY4Joef8jBV9DwTRL4HaSZQ0nkO1qARXqpBI4OVl1Sb2xWmTxxfT0ZtGzB8erhA1IDRXwpEgCNiuoI8hSmqEgQGf8CYJP3vPfBywqCO3l1wBt12OrxYHbtGl%2BZXes01WOudIGuq5keu0Di8KhbG1nuvljquPYl%2BFO2RRQZAFFmzTzbRmzKgSqNhBV5NByFJJgvyu%2BCe3ye64un8SgJYaw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-06-13 11:20:31,939 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2847] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4095'}
+2024-06-13 11:20:31,939 ERROR   wandb-upload_0:1538515 [internal_api.py:upload_file():2849] upload_file response body: 
+2024-06-13 11:20:32,833 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:33,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:34,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:35,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:36,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:36,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:37,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:38,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:39,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:40,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:41,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:41,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:20:41,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:20:41,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:42,834 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:43,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:44,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:45,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:46,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:47,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:47,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:48,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:49,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:50,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:51,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:52,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:52,835 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:53,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:54,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:55,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:56,348 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:20:56,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:20:56,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:57,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:20:57,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:58,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:20:59,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:00,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:01,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:02,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:02,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:03,836 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:04,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:05,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:06,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:07,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:08,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:08,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:09,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:10,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:11,349 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:21:11,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:21:11,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:12,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:13,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:13,837 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:14,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:14,989 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-13 11:21:14,990 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:21:15,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:16,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:17,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:18,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:19,053 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:19,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:20,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:21,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:22,838 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:23,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:24,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:24,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:25,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:26,349 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:21:26,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:21:26,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:27,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:28,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:29,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:30,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:30,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:31,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:32,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:33,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:34,839 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:35,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:35,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:36,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:37,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:38,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:39,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:40,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:40,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:41,349 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:21:41,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:21:41,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:42,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:43,840 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:44,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:44,991 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:21:45,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:45,991 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:46,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:47,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:48,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:49,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:50,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:51,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:51,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:52,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:53,841 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:54,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:55,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:56,055 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:21:56,349 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:21:56,349 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:21:56,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:57,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:58,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:21:59,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:00,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:01,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:02,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:02,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:03,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:04,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:05,842 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:06,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:07,054 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:07,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:08,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:09,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:10,843 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:11,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:22:11,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:22:11,940 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:12,109 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:12,896 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:13,860 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:14,992 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:22:15,951 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:16,654 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:16,962 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:17,962 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:18,024 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:18,655 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:18,983 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:20,003 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:21,003 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:22,018 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:23,018 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:23,096 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:24,023 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:25,018 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:26,027 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:26,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:22:26,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:22:26,658 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:27,066 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:28,082 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:28,142 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:29,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:30,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:30,659 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:31,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:32,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:32,660 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:33,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:33,166 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:34,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:34,660 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:35,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:36,036 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:36,661 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:37,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:38,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:38,341 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:38,662 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:39,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:40,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:40,663 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:41,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:41,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:22:41,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:22:42,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:42,663 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:43,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:43,557 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:44,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:44,664 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:44,993 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:22:45,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:46,037 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:46,664 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:47,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:48,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:48,665 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:48,790 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:49,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:50,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:50,666 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:51,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:52,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:52,666 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:53,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:53,813 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:22:54,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:54,667 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:54,949 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: pause
+2024-06-13 11:22:54,949 INFO    HandlerThread:1538515 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-13 11:22:54,949 INFO    HandlerThread:1538515 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-13 11:22:54,949 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-13 11:22:54,950 DEBUG   SystemMonitor:1538515 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-13 11:22:54,950 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-13 11:22:54,951 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined disk monitor
+2024-06-13 11:22:55,260 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-13 11:22:55,261 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined memory monitor
+2024-06-13 11:22:55,261 INFO    HandlerThread:1538515 [interfaces.py:finish():200] Joined network monitor
+2024-06-13 11:22:55,261 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:55,262 DEBUG   SenderThread:1538515 [sender.py:send():379] send: stats
+2024-06-13 11:22:56,038 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:56,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:22:56,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:22:56,668 INFO    Thread-12 :1538515 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240613_111100-qvtm9kha/files/output.log
+2024-06-13 11:22:57,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:58,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:59,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:22:59,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:00,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:01,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:02,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:03,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:04,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:05,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:05,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:06,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:07,039 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:08,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:09,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:10,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:10,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:11,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:11,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:23:11,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:23:12,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:13,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:14,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:15,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:15,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:16,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:17,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:18,040 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:19,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:20,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:20,102 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:21,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:22,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:23,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:24,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:25,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:26,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:26,103 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 11:23:26,462 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-13 11:23:26,463 DEBUG   SenderThread:1538515 [sender.py:send_request():406] send_request: stop_status
+2024-06-13 11:23:27,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:28,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-13 11:23:29,041 DEBUG   HandlerThread:1538515 [handler.py:handle_request():158] handle_request: internal_messages

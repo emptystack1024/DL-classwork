@@ -1,0 +1,43 @@
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Configure stats pid to 492401
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/文档/GitHub/DL大作业/wandb/settings
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-21 14:14:59,278 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:_log_setup():520] Logging user logs to /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_141459-eywsotuw/logs/debug.log
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:_log_setup():521] Logging internal logs to /home/ubuntu/文档/GitHub/DL大作业/wandb/run-20240621_141459-eywsotuw/logs/debug-internal.log
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7895d4f884c0>
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:init():560] calling init triggers
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': './yolov8n.pt', 'data': '/home/ubuntu/文档/GitHub/DL大作业/vehicle-dataset.yaml', 'epochs': 20, 'time': None, 'patience': 100, 'batch': 16, 'imgsz': 640, 'save': True, 'save_period': -1, 'cache': False, 'device': '1', 'workers': 8, 'project': None, 'name': 'train136', 'exist_ok': False, 'pretrained': True, 'optimizer': 'auto', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': False, 'amp': True, 'fraction': 1.0, 'profile': False, 'freeze': None, 'multi_scale': False, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': None, 'iou': 0.7, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'vid_stride': 1, 'stream_buffer': False, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'embed': None, 'show': False, 'save_frames': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'show_boxes': True, 'line_width': None, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'bgr': 0.0, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'auto_augment': 'randaugment', 'erasing': 0.4, 'crop_fraction': 1.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/train136'}
+2024-06-21 14:14:59,279 INFO    MainThread:492401 [wandb_init.py:init():610] starting backend
+2024-06-21 14:14:59,280 INFO    MainThread:492401 [wandb_init.py:init():614] setting up manager
+2024-06-21 14:14:59,281 INFO    MainThread:492401 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-21 14:14:59,282 INFO    MainThread:492401 [wandb_init.py:init():622] backend started and connected
+2024-06-21 14:14:59,295 INFO    MainThread:492401 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-21 14:14:59,295 INFO    MainThread:492401 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-21 14:14:59,295 INFO    MainThread:492401 [wandb_init.py:init():711] updated telemetry
+2024-06-21 14:14:59,298 INFO    MainThread:492401 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-21 14:15:00,019 INFO    MainThread:492401 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-21 14:15:01,091 INFO    MainThread:492401 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-21 14:15:01,091 INFO    MainThread:492401 [wandb_init.py:init():795] starting run threads in backend
+2024-06-21 14:15:04,779 WARNING MainThread:492401 [wandb_init.py:init():1175] interrupted
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 808, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/ubuntu/anaconda3/envs/yolo/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
